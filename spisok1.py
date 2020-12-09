@@ -1,5 +1,5 @@
 a = []
-with open ('C:\Users\Acer\Desktop\Python\Python my\dataset_3363_3.txt', 'r') as text:
+with open('D:\My\Python\dataset_3363_3.txt') as text:
 	for s in text:
 		a += s.strip().lower().split(' ')
 d=len(a)
@@ -20,7 +20,7 @@ r = ''
 for p in f.keys():
     if p < r:
         r = p
-with open ('C:\Users\Acer\Desktop\Python\Python my\dataset_3363_3.txt', 'w') as text:
+with open('D:\My\Python\dataset_3363_3.txt', 'w') as text:
 	text.write(p)
 	text.write(' ')
 	text.write(str(l))
